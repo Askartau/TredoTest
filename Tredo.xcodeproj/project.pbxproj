@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14D1FEF8261B81B50014E523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FEF7261B81B50014E523 /* AppDelegate.swift */; };
+		14D1FEFA261B81B50014E523 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FEF9261B81B50014E523 /* SceneDelegate.swift */; };
+		14D1FEFC261B81B50014E523 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FEFB261B81B50014E523 /* ListViewController.swift */; };
+		14D1FF01261B81B70014E523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D1FF00261B81B70014E523 /* Assets.xcassets */; };
+		14D1FF04261B81B70014E523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D1FF02261B81B70014E523 /* LaunchScreen.storyboard */; };
+		14D1FF26261B86C70014E523 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF25261B86C70014E523 /* MainCell.swift */; };
+		14D1FF2B261B8D700014E523 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF2A261B8D700014E523 /* APIManager.swift */; };
+		14D1FF2E261B8F740014E523 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF2D261B8F740014E523 /* ListViewModel.swift */; };
+		14D1FF31261B900D0014E523 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF30261B900D0014E523 /* ActivityIndicator.swift */; };
+		14D1FF37261B942E0014E523 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF36261B942E0014E523 /* Recipe.swift */; };
+		14D1FF40261BAA120014E523 /* DetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF3F261BAA120014E523 /* DetailVIew.swift */; };
+		14D1FF43261BAC080014E523 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF42261BAC080014E523 /* DetailViewModel.swift */; };
+		14D1FF46261BACE80014E523 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1FF45261BACE80014E523 /* DetailViewController.swift */; };
+		BD11CA99008ADC760A2802FB /* Pods_Tredo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63419D7D5D068D944537F9E /* Pods_Tredo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14D1FEF4261B81B50014E523 /* Tredo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tredo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D1FEF7261B81B50014E523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14D1FEF9261B81B50014E523 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14D1FEFB261B81B50014E523 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		14D1FF00261B81B70014E523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D1FF03261B81B70014E523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14D1FF05261B81B70014E523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D1FF25261B86C70014E523 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		14D1FF2A261B8D700014E523 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		14D1FF2D261B8F740014E523 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		14D1FF30261B900D0014E523 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		14D1FF36261B942E0014E523 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		14D1FF3F261BAA120014E523 /* DetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVIew.swift; sourceTree = "<group>"; };
+		14D1FF42261BAC080014E523 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		14D1FF45261BACE80014E523 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D63419D7D5D068D944537F9E /* Pods_Tredo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tredo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE275F58DAE3E7D2EC9E936 /* Pods-Tredo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tredo.release.xcconfig"; path = "Target Support Files/Pods-Tredo/Pods-Tredo.release.xcconfig"; sourceTree = "<group>"; };
+		EEA788ABC41161C4A251AA39 /* Pods-Tredo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tredo.debug.xcconfig"; path = "Target Support Files/Pods-Tredo/Pods-Tredo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D1FEF1261B81B50014E523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11CA99008ADC760A2802FB /* Pods_Tredo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D1FEEB261B81B50014E523 = {
+			isa = PBXGroup;
+			children = (
+				14D1FEF6261B81B50014E523 /* Tredo */,
+				14D1FEF5261B81B50014E523 /* Products */,
+				D907998960A9D681898A29B0 /* Pods */,
+				E034E7B4107DA0FE9A1E0432 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14D1FEF5261B81B50014E523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FEF4261B81B50014E523 /* Tredo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D1FEF6261B81B50014E523 /* Tredo */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF18261B83540014E523 /* AppDelegate */,
+				14D1FF13261B83120014E523 /* ViewControllers */,
+				14D1FF15261B83280014E523 /* Views */,
+				14D1FF14261B831B0014E523 /* ViewModels */,
+				14D1FF29261B8CE60014E523 /* Models */,
+				14D1FF16261B832D0014E523 /* Helper */,
+				14D1FF17261B83370014E523 /* Resourses */,
+			);
+			path = Tredo;
+			sourceTree = "<group>";
+		};
+		14D1FF13261B83120014E523 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FEFB261B81B50014E523 /* ListViewController.swift */,
+				14D1FF45261BACE80014E523 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		14D1FF14261B831B0014E523 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF2D261B8F740014E523 /* ListViewModel.swift */,
+				14D1FF42261BAC080014E523 /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		14D1FF15261B83280014E523 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF24261B86BE0014E523 /* Cells */,
+				14D1FF3F261BAA120014E523 /* DetailVIew.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14D1FF16261B832D0014E523 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF2A261B8D700014E523 /* APIManager.swift */,
+				14D1FF30261B900D0014E523 /* ActivityIndicator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		14D1FF17261B83370014E523 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF00261B81B70014E523 /* Assets.xcassets */,
+				14D1FF02261B81B70014E523 /* LaunchScreen.storyboard */,
+				14D1FF05261B81B70014E523 /* Info.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		14D1FF18261B83540014E523 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FEF7261B81B50014E523 /* AppDelegate.swift */,
+				14D1FEF9261B81B50014E523 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		14D1FF24261B86BE0014E523 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF25261B86C70014E523 /* MainCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		14D1FF29261B8CE60014E523 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14D1FF36261B942E0014E523 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D907998960A9D681898A29B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEA788ABC41161C4A251AA39 /* Pods-Tredo.debug.xcconfig */,
+				ECE275F58DAE3E7D2EC9E936 /* Pods-Tredo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E034E7B4107DA0FE9A1E0432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D63419D7D5D068D944537F9E /* Pods_Tredo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14D1FEF3261B81B50014E523 /* Tredo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D1FF08261B81B70014E523 /* Build configuration list for PBXNativeTarget "Tredo" */;
+			buildPhases = (
+				3210CB30A287B48186078A65 /* [CP] Check Pods Manifest.lock */,
+				14D1FEF0261B81B50014E523 /* Sources */,
+				14D1FEF1261B81B50014E523 /* Frameworks */,
+				14D1FEF2261B81B50014E523 /* Resources */,
+				6A664E48426C60A68F5CBF0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tredo;
+			productName = Tredo;
+			productReference = 14D1FEF4261B81B50014E523 /* Tredo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14D1FEEC261B81B50014E523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					14D1FEF3261B81B50014E523 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 14D1FEEF261B81B50014E523 /* Build configuration list for PBXProject "Tredo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14D1FEEB261B81B50014E523;
+			productRefGroup = 14D1FEF5261B81B50014E523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D1FEF3261B81B50014E523 /* Tredo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D1FEF2261B81B50014E523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D1FF04261B81B70014E523 /* LaunchScreen.storyboard in Resources */,
+				14D1FF01261B81B70014E523 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3210CB30A287B48186078A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tredo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A664E48426C60A68F5CBF0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tredo/Pods-Tredo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tredo/Pods-Tredo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tredo/Pods-Tredo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14D1FEF0261B81B50014E523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D1FF46261BACE80014E523 /* DetailViewController.swift in Sources */,
+				14D1FF2B261B8D700014E523 /* APIManager.swift in Sources */,
+				14D1FF40261BAA120014E523 /* DetailVIew.swift in Sources */,
+				14D1FF2E261B8F740014E523 /* ListViewModel.swift in Sources */,
+				14D1FEFC261B81B50014E523 /* ListViewController.swift in Sources */,
+				14D1FF31261B900D0014E523 /* ActivityIndicator.swift in Sources */,
+				14D1FF43261BAC080014E523 /* DetailViewModel.swift in Sources */,
+				14D1FEF8261B81B50014E523 /* AppDelegate.swift in Sources */,
+				14D1FEFA261B81B50014E523 /* SceneDelegate.swift in Sources */,
+				14D1FF26261B86C70014E523 /* MainCell.swift in Sources */,
+				14D1FF37261B942E0014E523 /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14D1FF02261B81B70014E523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D1FF03261B81B70014E523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14D1FF06261B81B70014E523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14D1FF07261B81B70014E523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14D1FF09261B81B70014E523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA788ABC41161C4A251AA39 /* Pods-Tredo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tredo/Resourses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tredo.Tredo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14D1FF0A261B81B70014E523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE275F58DAE3E7D2EC9E936 /* Pods-Tredo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tredo/Resourses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tredo.Tredo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D1FEEF261B81B50014E523 /* Build configuration list for PBXProject "Tredo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D1FF06261B81B70014E523 /* Debug */,
+				14D1FF07261B81B70014E523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D1FF08261B81B70014E523 /* Build configuration list for PBXNativeTarget "Tredo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D1FF09261B81B70014E523 /* Debug */,
+				14D1FF0A261B81B70014E523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14D1FEEC261B81B50014E523 /* Project object */;
+}
